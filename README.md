@@ -40,14 +40,20 @@ THEN I am presented with a responsive layout that adapts to my viewport.
 
 # Link to Deployed Application:
 
+https://wizard-mate.github.io/Basic-Portfolio/
 
 # Screenshots:
 
 1. Screenshot of my completed HTML and CSS documents side by side.
 
-![Screenshot of my completed HTML and CSS documents side by side.](/assets/images/HTML-CSS-Image2.png?raw=true "HTML CSS")
+![Screenshot of my completed HTML and CSS documents side by side.](/assets/images/HTML-CSS.png?raw=true "HTML CSS")
 
 2. Screenshot of the Website deployed as a GitHub Page.
 
 ![Screenshot of the Website deployed as a GitHub Page.](/assets/images/Deployed-Website.png?raw=true "Deployed")
+
+3. Screenshot of the Website deployed as a GitHub Page in smaller ratio.
+
+![Screenshot of the Website deployed as a GitHub Pagevin smaller ratio.](/assets/images/Deployed-Website-Small.png?raw=true "Deployed Small")
+
 
