@@ -61,7 +61,7 @@ a {
 
 footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: var(--croc);
     padding-left: 30px;
@@ -175,3 +175,44 @@ div p {
     color: var(--dgreen);
 }
 
+/* when you hover over the text in the portfolio cards, the text background will turn yellow */
+span a:hover {
+    background-color: yellow;
+  }
+
+/* media for screen size change */
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 10px 0px 10px 0px;
+        line-height: .3em;
+    }
+    
+    nav {
+        margin: 0 auto;
+    }
+
+    .card {
+        flex: 0 0 100%;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .portfolio {
+        flex-direction: column;
+    }
+
+    .card:first-child {
+        width: 25%;
+        padding: 30px;
+    }
+
+    footer ul {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        line-height: 2em;
+    }
+}
