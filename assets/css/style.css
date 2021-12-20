@@ -1,3 +1,4 @@
+/* color variable to save time and to stay consistent */
 :root {
     --black: #040403;
     --croc: #465e3f;
@@ -6,6 +7,7 @@
     --purp: #793868;
 }
 
+/* general element styling */
 header {
     display: flex;
     justify-content: space-between;
@@ -57,84 +59,6 @@ a {
     color: var(--dgreen);
 }
 
-.banner {
-    height: 200px;
-    width: 100%;
-    background-image: url("../images/image-1.jpeg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin-top: 10px;
-}
-
-.container {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.left {
-    flex: 0 0 20%;
-}
-
-.right {
-    flex: 0 0 80%;
-}
-
-.portfolio {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-    align-content: space-around;
-}
-
-.card {
-    margin: 10px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.card:first-child {
-    width: 100%;
-    padding: 75px;
-}
-  
-.card:not(:first-child) {
-    width: 25%;
-    padding: 20px;
-}
-
-.items-1 {
-    background-image: url(../images/image-hor.png);
-}
-
-.items-2 {
-    background-image: url(../images/image-3.jpeg);
-}
-
-.items-3 {
-    background-image: url(../images/image-4.jpeg);
-}
-
-.items-4 {
-    background-image: url(../images/image-5.jpeg);
-}
-
-.items-5 {
-    background-image: url(../images/image-2.jpeg);
-}
-
-.text {
-    background-color: var(--croc);
-    bottom: 10px;
-    position: relative;
-    color: var(--dgreen);
-
-}
-
 footer {
     display: flex;
     justify-content: space-between;
@@ -161,3 +85,93 @@ div p {
     text-align: center;
     color: var(--croc);
 }
+
+/* class stylings */
+
+/* banner image */
+.banner {
+    height: 200px;
+    width: 100%;
+    background-image: url("../images/image-1.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+
+/* main container */
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* left container - contains section headings */
+.left {
+    flex: 0 0 20%;
+}
+
+/* right container - contains paragraph and portfolio flex container */
+.right {
+    flex: 0 0 80%;
+}
+
+/* contains flex items under work */
+.portfolio {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+/* general flex item */
+.card {
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* first card specific to make it larger than the rest */
+.card:first-child {
+    width: 100%;
+    padding: 75px;
+}
+ 
+/* the rest of the cards */
+.card:not(:first-child) {
+    width: 25%;
+    padding: 20px;
+}
+
+/* specific items background images */
+.items-1 {
+    background-image: url(../images/image-hor.png);
+}
+
+.items-2 {
+    background-image: url(../images/image-3.jpeg);
+}
+
+.items-3 {
+    background-image: url(../images/image-4.jpeg);
+}
+
+.items-4 {
+    background-image: url(../images/image-5.jpeg);
+}
+
+.items-5 {
+    background-image: url(../images/image-2.jpeg);
+}
+
+/* text for portfolio card links */
+.text {
+    background-color: var(--croc);
+    bottom: 10px;
+    position: relative;
+    color: var(--dgreen);
+}
+
